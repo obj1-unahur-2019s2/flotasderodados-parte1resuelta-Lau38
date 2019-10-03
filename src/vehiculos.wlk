@@ -1,16 +1,8 @@
-/*
- * Objetos que representan colores
- */
-object azul {}
-object rojo {}
-object verde {}
-object blanco {}
-object bordo {}
-object cremita {}
+object azul{}
+object blanco{}
 
 class ChevroletCorsa {
-	// al ponerlo como var property, se puede preguntar color()
-	// y se preserva el polimorfismo con los otros vehículos
+
 	var property color  
 	method capacidad() { return 4 }
 	method velocidadMaxima() { return 150 }
@@ -18,7 +10,7 @@ class ChevroletCorsa {
 }
 
 class RenaultKwid {
-	// poniendo var property, permitimos poner y sacar el tanque
+	
 	var property tieneTanqueAdicional
 	method capacidad() { 
     	if (tieneTanqueAdicional) {
@@ -49,6 +41,7 @@ class AutoEspecial {
 	var property capacidad
 	var property velocidadMaxima
 	var property peso
+	//var al= new Especial(color="blanco",peso="",capacidad="",velocidad=""//
 }
 
 
